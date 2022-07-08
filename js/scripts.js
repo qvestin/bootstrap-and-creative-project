@@ -2,8 +2,11 @@ $(document).ready(function(){
 
     $('.owl-carousel').owlCarousel({
         loop:true,
+        autoplay:500,
+        dots: false,
         margin:0,
-        nav:true,
+        nav:false,
+        touchDrag: false,
         navText: [ '', ' ' ],
 
         responsive:{
