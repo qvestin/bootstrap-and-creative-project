@@ -1,7 +1,183 @@
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-BookItalic.woff2") format("woff2"), url("../fonts/20Kopeek-BookItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-Black.woff2") format("woff2"), url("../fonts/20Kopeek-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-DemiBoldItalic.woff2") format("woff2"), url("../fonts/20Kopeek-DemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek.woff2") format("woff2"), url("../fonts/20Kopeek.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-BlackItalic.woff2") format("woff2"), url("../fonts/20Kopeek-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-Book.woff2") format("woff2"), url("../fonts/20Kopeek-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-Bold.woff2") format("woff2"), url("../fonts/20Kopeek-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-BoldItalic.woff2") format("woff2"), url("../fonts/20Kopeek-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-DemiBold.woff2") format("woff2"), url("../fonts/20Kopeek-DemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-Thin.woff2") format("woff2"), url("../fonts/20Kopeek-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-ThinItalic.woff2") format("woff2"), url("../fonts/20Kopeek-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-Italic.woff2") format("woff2"), url("../fonts/20Kopeek-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-LightItalic.woff2") format("woff2"), url("../fonts/20Kopeek-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-Light.woff2") format("woff2"), url("../fonts/20Kopeek-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 .main_banner {
+  height: 100vh;
+}
+.main_banner .item {
   background-image: url(../images/background.png);
   background-size: cover;
   height: 100vh;
+}
+.main_banner .item.item_2 {
+  background-image: url(../images/background.png);
+}
+.main_banner .item.item_3 {
+  background-image: url(../images/background.png);
+}
+.main_banner .item.item_4 {
+  background-image: url(../images/background.png);
+}
+
+header ul li {
+  padding-left: 23px;
+}
+header ul li a {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+header P {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF;
+}
+
+header .nav-item:nth-child(2) a:before {
+  content: "";
+  background-image: url(../images/fb.svg);
+  width: 7px;
+  height: 13px;
+  display: block;
+  margin: auto;
+}
+
+header .nav-item:first-of-type a {
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
+  padding: 7px 27px 7px 30px;
+}
+
+header .nav-item:nth-child(2) a {
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  padding: 12px;
+  height: 36px;
+  width: 36px;
+}
+
+header .nav-item:last-of-type a:before {
+  content: "";
+  background-image: url(../images/in.svg);
+  width: 14px;
+  height: 15px;
+  display: block;
+  margin: auto;
+}
+
+header .nav-item:last-of-type a {
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  padding: 12px;
+  height: 36px;
+  width: 36px;
 }
 
 /*# sourceMappingURL=style.css.map */
