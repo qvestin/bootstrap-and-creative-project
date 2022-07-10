@@ -198,7 +198,6 @@ header .nav-item:first-of-type a{
 header .nav-item:nth-child(2) a{
   border: 1px solid #FFFFFF;
   border-radius: 20px;
-  padding: 12px;
   height: 36px;
   width: 36px;
 }
@@ -213,12 +212,12 @@ header .nav-item:nth-child(3) a:before{
 header .nav-item:nth-child(3) a {
   border: 1px solid #FFFFFF;
   border-radius: 20px;
-  padding: 12px;
   height: 36px;
   width: 36px;
 }
 .owl-nav{
   display: none;
+
 }
 
 
@@ -271,6 +270,9 @@ header .nav-item:nth-child(3) a {
   .navbar-light .navbar-nav .nav-link {
     font-size: 25px;
   }
+}
+.nav-link{
+  display: flex;
 }
 
 
